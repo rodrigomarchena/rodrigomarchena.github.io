@@ -1,0 +1,10 @@
+Páginas:
+
+- Home
+- Quem Somos
+- Lista de produtos
+- Produto individual
+- Contato
+- Como comprar
+- Novidades
+- Medidas/Etc
