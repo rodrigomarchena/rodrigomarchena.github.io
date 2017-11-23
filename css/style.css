@@ -1,0 +1,178 @@
+@import 'reset.css';
+@import 'grid.css';
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Noto Serif', serif;
+  font-size: 21px;
+  color: #666;
+  line-height: 1em;
+  /*background: url(../bg.jpg) 0 top no-repeat;*/
+  background-size: cover;
+}
+
+html, body {
+  height: 100%;
+}
+
+section {
+  padding: 20px 0;
+}
+
+.s-light {
+  background: #eee;
+}
+
+.s-intro {
+  background: url(../img/bg.jpg) center 0 no-repeat;
+}
+.pic {
+  border-radius: 100%;
+  overflow: hidden;
+  max-width: 120px;
+  margin-right: 20px;
+  border: 4px solid white;
+}
+.header {
+
+}
+em {
+  font-style: italic;
+}
+small {
+  font-size: 90% !important;
+}
+strong {
+  font-weight: bold;
+}
+a {
+  color: #999;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.tac {
+  text-align: center;
+}
+.tar {
+  text-align: right;
+}
+.tal {
+  text-align: left;
+}
+.posr {
+  position: relative;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  color: #444;
+  line-height: 1.1;
+}
+
+h1 {
+  font-family: 'Roboto', serif;
+  color: #93749c;
+  font-size: 2.6em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin-bottom: 18px;
+}
+.c-dark {
+  color: #725c79;
+}
+h2 {
+  color: #777;
+  font-family: 'Roboto', serif;
+  font-size: 1.8em;
+  margin-bottom: 25px;
+}
+h3 {
+  font-size: 1.3em;
+  color: #8c8c8c;
+  margin-bottom: 18px;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.li-profile-container {
+  background: none !important;
+}
+.container-outer,
+.li-profile-card {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.linkedin-box {
+  background: #fff;
+  padding: 20px 0;
+  max-width: 420px;
+  line-height: 1.2;
+  box-shadow: 0 0 8px rgba(0,0,0,.2);
+  margin: 0 auto;
+}
+.linkedin-box h3 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.cta {
+  text-decoration: none;
+  display: inline-block;
+  height: 60px;
+  text-align: center;
+  padding: 14px 32px 11px;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 60px;
+  background: #4e3f53;
+  font-size: 19px;
+  color: #eee;
+}
+.cta .fa {
+  font-size: 1.2em;
+  margin-right: 6px;
+}
+
+.social .fa {
+  text-decoration: none;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding: 14px 12px 10px;
+  margin: 0 4px 24px;
+  border-radius: 100%;
+  background: #4e3f53;
+  font-size: 30px;
+  color: #eee;
+}
+.social .fa, .cta {
+  transition: all .3s;
+}
+
+.social .fa:hover, .cta:hover {
+  background: #715b78;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.8em;
+  }
+}
